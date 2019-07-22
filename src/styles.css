@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Barriecito|DM+Serif+Display|Open+Sans+Condensed:300&display=swap');
+
+html, body{
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100%;
+    font-size:21px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+h1, h2, h3, h4{
+    font-family: 'DM Serif Display', serif;
+}
+blockquote{
+    font-family: 'Barriecito', cursive;
+}
+main{
+    display:flex;
+}
+section{
+    margin:0 auto;
+    display:flex;
+    flex-flow:row wrap;
+    padding:0 10px;
+}
+article{
+    display:flex;
+    flex-flow:column wrap;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* ============= FORMULAIRES ============== */
+input.ng-valid{
+    border-bottom: 2px solid green;
+}
+input.ng-invalid{
+    border-bottom: 2px solid red;
+}
+form{
+    display:flex;
+    flex-flow:column wrap;
+    margin:auto;
+    padding:20px;
+}
+form.ng-valid{
+    border-left : 1px solid green;
+}
+form.ng-invalid{
+    border-right : 1px solid red;
+}
+
+input, textarea, select{
+    padding:5px;
+    color:#262626;
+}
